@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/react-v19.0-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/typescript-v5.0-3178C6?logo=typescript)
-![Gemini](https://img.shields.io/badge/AI-Gemini%202.5%20%26%203.0-8E75B2?logo=google)
+![AI](https://img.shields.io/badge/AI-Advanced-8E75B2)
 
 > **Autonomous Competitive Intelligence Platform**
 >
@@ -58,13 +58,13 @@ Sentinel addresses these challenges through autonomous AI agents that operate co
 
 ## 🧠 The Agentic Chain
 
-Sentinel employs a multi-step, state-machine architecture powered by Google's **Gemini 2.5 Flash** (for speed) and **Gemini 3.0 Pro** (for reasoning).
+Sentinel employs a multi-step, state-machine architecture powered by advanced **AI models**.
 
-1.  **⚡ Router Agent** (`gemini-2.5-flash`)
+1.  **⚡ Router Agent** (`advanced-ai`)
     *   **Role:** The Traffic Controller.
     *   **Task:** Analyzes user intent, extracts target companies, and generates optimized search vectors.
 
-2.  **🔍 Hunter Agent** (`gemini-2.5-flash` + **Google Search**)
+2.  **🔍 Hunter Agent** (`advanced-ai` + **Web Search**)
     *   **Role:** The Investigator.
     *   **Task:** Executes live queries to find pricing pages, changelogs, and press releases. Filters for high-authority domains.
 
@@ -72,11 +72,11 @@ Sentinel employs a multi-step, state-machine architecture powered by Google's **
     *   **Role:** The Extractor.
     *   **Task:** Ingests raw noise, ads, and HTML; synthesizes a dense "Fact Sheet" of pure signal.
 
-4.  **🧠 Analyst Agent** (`gemini-3-pro-preview`)
+4.  **🧠 Analyst Agent** (`advanced-reasoning`)
     *   **Role:** The Strategist.
     *   **Task:** Reads the Fact Sheet. Performs a 360° SWOT analysis. **Crucially**, it assigns integer scores (0-100) to abstract concepts (Brand Power, Pricing Power) based on evidence.
 
-5.  **📝 Reporter Agent** (`gemini-2.5-flash`)
+5.  **📝 Reporter Agent** (`fast-ai`)
     *   **Role:** The Closer.
     *   **Task:** Compiles everything into a C-Level Executive Markdown report.
 
@@ -98,7 +98,7 @@ Select any two reports from history to trigger **Head-to-Head**.
 
 ### 💬 Context-Aware Analyst Chat
 Talk to your data.
-*   **RAG + Web:** The chat knows the generated report context *and* has access to live Google Search.
+*   **RAG + Web:** The chat knows the generated report context *and* has access to live Web Search.
 *   **Deep Reasoning:** Ask follow-up questions: *"Okay, but how does their pricing compare to Tesla?"*
 
 ---
@@ -117,7 +117,7 @@ Talk to your data.
 
 ### Prerequisites
 *   Node.js 18+
-*   A Google Cloud Project with Gemini API enabled.
+*   A Google Cloud Project with AI API enabled.
 
 ### Installation
 
@@ -151,6 +151,12 @@ Talk to your data.
 2.  **Observe:** Watch the Agent Visualizer step through the workflow in real-time.
 3.  **Review:** Analyze the scored metrics and SWOT grid.
 4.  **Compare:** Go to History, select two rivals, and click **Compare**.
+
+---
+
+## 🔗 Live Demo
+
+🚀 **Production:** [https://sentinel-demo.vercel.app](https://sentinel-demo.vercel.app)
 
 ---
 
