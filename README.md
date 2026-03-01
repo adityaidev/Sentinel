@@ -123,7 +123,7 @@ Talk to your data.
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/mr-xlr8-AGT/sentinel.git
+    git clone https://github.com/adityaidev/Sentinel.git
     cd sentinel
     ```
 
